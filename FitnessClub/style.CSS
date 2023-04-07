@@ -1,0 +1,218 @@
+body
+{
+  background-color: #3d4754;
+}
+
+/* CSS for the navigation bar */
+#nav-bar {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-right: 20px;
+}
+
+.nav-link:hover {
+  color: #ffc107;
+}
+
+/* CSS for the home section */
+#HOME {
+  background-image: url('https://source.unsplash.com/1600x900/?fitness');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#HOME h1 {
+  font-size: 4rem;
+  margin-bottom: 30px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+#HOME p {
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+#HOME button {
+  background-color: #ffc107;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+#HOME button:hover {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* CSS for the about section */
+#ABOUT {
+  background-color: #fff;
+  padding: 50px;
+}
+
+#ABOUT h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #000;
+  align-items: center;
+}
+
+#ABOUT p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #000;
+  align-items: center;
+}
+
+/* CSS for the services section */
+#SERVICES {
+  background-color: #f8f9fa;
+  padding: 50px;
+}
+
+#SERVICES h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #000;
+  align-items: center;
+}
+
+#SERVICES ul {
+  list-style-type: none;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #000;
+  align-items: center;
+}
+
+#SERVICES li {
+  margin-bottom: 10px;
+}
+
+/* CSS for the membership section */
+#MEMBERSHIP {
+  background-color: #fff;
+  padding: 50px;
+  align-items: center;
+}
+
+#MEMBERSHIP h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #000;
+  align-items: center;
+}
+
+#MEMBERSHIP p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #000;
+  align-items: center;
+}
+
+#MEMBERSHIP form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#MEMBERSHIP label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #000;
+  align-items: center;
+}
+
+#MEMBERSHIP input[type="text"],
+#MEMBERSHIP input[type="password"],
+#MEMBERSHIP input[type="email"] {
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#MEMBERSHIP input[type="submit"] {
+  background-color: #ffc107;
+  width: 10%px;
+
+}
+#CONTACT {
+  background-color: #f7f7f7;
+  padding: 50px;
+}
+
+#CONTACT h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#CONTACT p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#CONTACT form {
+  display: flex;
+  flex-direction: column;
+}
+
+#CONTACT form label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#CONTACT form input[type="text"],
+#CONTACT form input[type="email"],
+#CONTACT form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+#CONTACT form textarea {
+  height: 150px;
+}
+
+#CONTACT form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#CONTACT form button[type="submit"]:hover {
+  background-color: #555;
+}
